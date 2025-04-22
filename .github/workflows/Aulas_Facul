@@ -1,0 +1,11 @@
+name: Aulas_facul
+on: workflow_dispatch
+jobs:
+primeiro_job
+runs-on: ubuntu-latest
+step:
+  -name: Hello, Github Actions!
+  -name: Qual o conteudo do seu diretorio atual, incluindo arquivos ocultos?
+  run: Is-a
+  -name: Até mais!
+  run: echo "See you,Github Actions!"
